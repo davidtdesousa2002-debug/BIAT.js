@@ -50,9 +50,9 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/BIAT/qual
 			},
 				categories : [  //As many categories you need.
 				{
-					name : 'Black people', //Will appear in the data.
+					name : 'Negros', //Will appear in the data.
 					title : {
-						media : {word : 'Black people'}, //Name of the category presented in the task.
+						media : {word : 'Negros'}, //Name of the category presented in the task.
 						css : {color:'#31b404','font-size':'1.8em'}, //Style of the category title.
 						height : 4, //Height (because we need to know where to put the next item in the title)
 						startStimulus : { 
