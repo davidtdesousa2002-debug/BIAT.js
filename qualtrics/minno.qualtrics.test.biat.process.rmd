@@ -102,7 +102,7 @@ table(iat.raw$cond, exclude=NULL)
 
 ```{r}
 iat.raw$cong <- ifelse(iat.raw$cond=='White people/Pleasant', 'cong', 
-                       ifelse(iat.raw$cond %in% c('Black people/Pleasant','Black People/Pleasant'), 'incong', NA))
+                       ifelse(iat.raw$cond %in% c('Negros/Pleasant','Negros/Pleasant'), 'incong', NA))
 table(iat.raw$cong, exclude=NULL)
 ```
 
